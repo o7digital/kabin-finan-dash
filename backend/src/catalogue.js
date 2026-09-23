@@ -1,0 +1,47 @@
+export const demoCatalogue = [
+  {
+    id: 'demo-toyota-land-cruiser',
+    crmVehicleId: null,
+    brand: 'Toyota',
+    model: 'Land Cruiser',
+    version: 'HE',
+    modelYear: 2026,
+    basePriceMxn: 1_850_000,
+    featured: true,
+    armorOptions: [
+      { id: 'none', label: 'Sin blindaje', level: null, priceMxn: 0 },
+      { id: 'iii-a', label: 'Blindaje III-A', level: 'III-A', priceMxn: 1_150_000 },
+      { id: 'iv', label: 'Blindaje IV', level: 'IV', priceMxn: 1_450_000 },
+    ],
+  },
+  {
+    id: 'demo-bmw-x5',
+    crmVehicleId: null,
+    brand: 'BMW',
+    model: 'X5',
+    version: 'xDrive40i',
+    modelYear: 2026,
+    basePriceMxn: 1_550_000,
+    featured: false,
+    armorOptions: [
+      { id: 'none', label: 'Sin blindaje', level: null, priceMxn: 0 },
+      { id: 'iii-a', label: 'Blindaje III-A', level: 'III-A', priceMxn: 920_000 },
+      { id: 'iv', label: 'Blindaje IV', level: 'IV', priceMxn: 1_250_000 },
+    ],
+  },
+  {
+    id: 'demo-chevrolet-tahoe',
+    crmVehicleId: null,
+    brand: 'Chevrolet',
+    model: 'Tahoe',
+    version: 'High Country',
+    modelYear: 2026,
+    basePriceMxn: 2_220_000,
+    featured: false,
+    armorOptions: [
+      { id: 'none', label: 'Sin blindaje', level: null, priceMxn: 0 },
+      { id: 'iii-a', label: 'Blindaje III-A', level: 'III-A', priceMxn: 1_300_000 },
+      { id: 'iv', label: 'Blindaje IV', level: 'IV', priceMxn: 1_450_000 },
+    ],
+  },
+];

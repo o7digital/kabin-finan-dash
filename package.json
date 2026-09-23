@@ -1,0 +1,16 @@
+{
+  "name": "kabin-financial-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node backend/src/server.js",
+    "start": "node backend/src/server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test",
+    "check": "node scripts/check.js"
+  }
+}
