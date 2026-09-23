@@ -6,3 +6,4 @@ backend/data/*.json
 !backend/data/.gitkeep
 artifacts/
 test-results/
+.vercel
